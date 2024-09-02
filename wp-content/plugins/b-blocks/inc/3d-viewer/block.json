@@ -1,0 +1,76 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/td-viewer",
+	"title": "3D Viewer",
+	"description": "Display interactive 3D models on the web",
+	"category": "bBlocks",
+	"keywords": [
+		"3d",
+		"3d model",
+		"3d viewer"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"sourceType": {
+			"type": "string",
+			"default": "upload"
+		},
+		"model": {
+			"type": "object",
+			"default": {
+				"id": null,
+				"url": "https://modelviewer.dev/assets/ShopifyModels/ToyTrain.glb",
+				"title": ""
+			}
+		},
+		"modelLink": {
+			"type": "string",
+			"default": "https://modelviewer.dev/assets/ShopifyModels/ToyTrain.glb"
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"height": {
+			"type": "string",
+			"default": "350px"
+		},
+		"isTouchMove": {
+			"type": "boolean",
+			"default": true
+		},
+		"isZoom": {
+			"type": "boolean",
+			"default": true
+		},
+		"loadingType": {
+			"type": "string",
+			"default": "auto"
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"sourceType": "link"
+		}
+	}
+}

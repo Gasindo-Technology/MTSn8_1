@@ -1,0 +1,136 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/service",
+	"title": "Service",
+	"description": "Service item for services.",
+	"parent": [
+		"b-blocks/services"
+	],
+	"category": "bBlocks",
+	"keywords": [
+		"our service",
+		"service item",
+		"service card"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"hoverBG": {
+			"type": "object",
+			"default": {
+				"type": "image",
+				"image": {
+					"url": "https://i.ibb.co/HVF4NB3/service-pattern.png"
+				},
+				"overlayColor": "#0000",
+				"position": "bottom left",
+				"size": "auto"
+			}
+		},
+		"isIcon": {
+			"type": "boolean",
+			"default": true
+		},
+		"isUpIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"class": "fa-brands fa-wordpress",
+				"fontSize": 70
+			}
+		},
+		"upIcon": {
+			"type": "object",
+			"default": {
+				"id": null,
+				"url": "",
+				"alt": "",
+				"title": ""
+			}
+		},
+		"iconWidth": {
+			"type": "string",
+			"default": "70px"
+		},
+		"iconBorder": {
+			"type": "object",
+			"default": {}
+		},
+		"isTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"title": {
+			"type": "string",
+			"selector": ".bBlocksService h3.title",
+			"default": "Service title"
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#222"
+		},
+		"isDesc": {
+			"type": "boolean",
+			"default": true
+		},
+		"desc": {
+			"type": "string",
+			"selector": ".bBlocksService h3.description",
+			"default": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, fuga."
+		},
+		"descColor": {
+			"type": "string",
+			"default": "#333"
+		},
+		"isLink": {
+			"type": "boolean",
+			"default": true
+		},
+		"link": {
+			"type": "string",
+			"default": "#"
+		},
+		"linkIn": {
+			"type": "string",
+			"default": "button"
+		},
+		"linkIconColor": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"linkBGColor": {
+			"type": "string",
+			"default": "#d2d2d2"
+		},
+		"linkBGHovColor": {
+			"type": "string",
+			"default": "#4527a4"
+		}
+	},
+	"supports": {
+		"align": false,
+		"reusable": false,
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

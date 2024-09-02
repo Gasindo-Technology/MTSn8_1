@@ -1,0 +1,93 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/video",
+	"title": "Video",
+	"description": "A Simple, accessible, Easy to Use & fully Customizable video player.",
+	"icon": "video-alt2",
+	"category": "bBlocks",
+	"keywords": [
+		"video embed",
+		"mp4 ogg player",
+		"any video play"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"clientId": {
+			"type": "string",
+			"default": ""
+		},
+		"source": {
+			"type": "string",
+			"default": ""
+		},
+		"poster": {
+			"type": "string",
+			"default": ""
+		},
+		"controls": {
+			"type": "object",
+			"default": {
+				"play-large": true,
+				"restart": false,
+				"rewind": true,
+				"play": true,
+				"fast-forward": true,
+				"progress": true,
+				"current-time": true,
+				"duration": false,
+				"mute": true,
+				"volume": true,
+				"pip": false,
+				"airplay": false,
+				"settings": true,
+				"download": false,
+				"fullscreen": true
+			}
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"radius": {
+			"type": "string",
+			"default": "0px"
+		},
+		"repeat": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoplay": {
+			"type": "boolean",
+			"default": false
+		},
+		"muted": {
+			"type": "boolean",
+			"default": false
+		},
+		"resetOnEnd": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoHideControl": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"sourceType": "link"
+		}
+	}
+}

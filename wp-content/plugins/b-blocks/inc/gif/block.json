@@ -1,0 +1,47 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/gif",
+	"title": "Gif Image",
+	"description": "Embed gif image.",
+	"category": "bBlocks",
+	"keywords": [
+		"video image",
+		"embed gif image",
+		"animated image"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"gif": {
+			"type": "object",
+			"default": null
+		},
+		"gifAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"gifWidth": {
+			"type": "string",
+			"default": "0px"
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

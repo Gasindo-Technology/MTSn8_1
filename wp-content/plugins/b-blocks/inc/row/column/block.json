@@ -1,0 +1,75 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/column",
+	"title": "Column",
+	"description": "Column of the row.",
+	"category": "bBlocks",
+	"parent": [
+		"b-blocks/row"
+	],
+	"keywords": [
+		"column",
+		"columns",
+		"multi columns"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"width": {
+			"type": "object",
+			"default": {
+				"mobile": 100,
+				"tablet": 50,
+				"desktop": 33.33
+			}
+		},
+		"overflow": {
+			"type": "string",
+			"default": "hidden"
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "0px",
+				"horizontal": "0px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {}
+		},
+		"shadow": {
+			"type": "object",
+			"default": {}
+		}
+	},
+	"usesContext": [
+		"b-blocks/rowColumns",
+		"b-blocks/rowColumnGap"
+	],
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

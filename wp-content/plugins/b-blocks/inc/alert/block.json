@@ -1,0 +1,102 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/alert",
+	"title": "Alert",
+	"description": "Provide contextual feedback messages.",
+	"category": "bBlocks",
+	"keywords": [
+		"alert message",
+		"alert block",
+		"custom alert"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"type": {
+			"type": "string",
+			"default": "general"
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"message": {
+			"type": "string",
+			"default": "You have an alert message!",
+			"selector": ".bBlocksAlert .alert .alertMessage"
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"class": "fa-solid fa-bell"
+			}
+		},
+		"isDismiss": {
+			"type": "boolean",
+			"default": true
+		},
+		"typography": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 25,
+					"tablet": 22,
+					"mobile": 20
+				}
+			}
+		},
+		"colors": {
+			"type": "object",
+			"default": {
+				"color": "#333",
+				"bg": "#fff"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "15px",
+				"horizontal": "30px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"width": "2px",
+				"color": "#333",
+				"radius": "8px"
+			}
+		},
+		"shadow": {
+			"type": "object",
+			"default": {}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

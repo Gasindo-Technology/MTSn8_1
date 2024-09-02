@@ -1,0 +1,138 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/services",
+	"title": "Services",
+	"description": "Services section for web page.",
+	"category": "bBlocks",
+	"keywords": [
+		"our services",
+		"services template",
+		"services section"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"layout": {
+			"type": "string",
+			"default": "default"
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"itemHeight": {
+			"type": "string",
+			"default": "375px"
+		},
+		"itemPadding": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"top": "50px",
+				"right": "30px",
+				"bottom": "50px",
+				"left": "50px"
+			}
+		},
+		"itemBorder": {
+			"type": "object",
+			"default": {
+				"radius": "15px"
+			}
+		},
+		"itemShadow": {
+			"type": "object",
+			"default": {
+				"blur": "20px",
+				"color": "#0000001a"
+			}
+		},
+		"iconPadding": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"iconMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "20px"
+			}
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 23,
+					"tablet": 20,
+					"mobile": 18
+				}
+			}
+		},
+		"titleMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "30px"
+			}
+		},
+		"descTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 16,
+					"tablet": 16,
+					"mobile": 16
+				}
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	}
+}

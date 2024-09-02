@@ -1,0 +1,296 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/flip-boxes",
+	"title": "Flip Boxes",
+	"description": "Display Flip boxes section.",
+	"category": "bBlocks",
+	"keywords": [
+		"flip",
+		"flip boxes",
+		"flip boxes section"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"boxes": {
+			"type": "array",
+			"default": [
+				{
+					"frontBG": {},
+					"backBG": {},
+					"border": {},
+					"shadow": {},
+					"isFrontUpIcon": false,
+					"frontIcon": {
+						"class": "fa fa-sync-alt",
+						"fontSize": 70,
+						"color": "#fff"
+					},
+					"upFrontIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"frontIconWidth": "70px",
+					"isBackUpIcon": false,
+					"backIcon": {
+						"class": "fa-brands fa-wordpress",
+						"fontSize": 70,
+						"color": "#fff"
+					},
+					"upBackIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"backIconWidth": "70px",
+					"frontTitle": "Front Title 1",
+					"frontTitleColor": "#fff",
+					"backTitle": "Back Title 1",
+					"backTitleColor": "#fff",
+					"desc": "This content area describes flip box 1 descriptions/details.",
+					"descColor": "#fff",
+					"btn": "Button 1",
+					"btnLink": "#",
+					"btnBorder": {
+						"radius": "3px"
+					},
+					"btnColors": {
+						"color": "#fff",
+						"bg": "#ff4500"
+					},
+					"btnHovColors": {
+						"color": "#fff",
+						"bg": "#ff7500"
+					}
+				},
+				{
+					"frontBG": {},
+					"backBG": {},
+					"border": {},
+					"shadow": {},
+					"isFrontUpIcon": false,
+					"frontIcon": {
+						"class": "fa fa-sync-alt",
+						"fontSize": 70,
+						"color": "#fff"
+					},
+					"upFrontIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"frontIconWidth": "70px",
+					"isBackUpIcon": false,
+					"backIcon": {
+						"class": "fa-brands fa-wordpress",
+						"fontSize": 70,
+						"color": "#fff"
+					},
+					"upBackIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"backIconWidth": "70px",
+					"frontTitle": "Front Title 2",
+					"frontTitleColor": "#fff",
+					"backTitle": "Back Title 2",
+					"backTitleColor": "#fff",
+					"desc": "This content area describes flip box 2 descriptions/details.",
+					"descColor": "#fff",
+					"btn": "Button 2",
+					"btnLink": "#",
+					"btnBorder": {
+						"radius": "3px"
+					},
+					"btnColors": {
+						"color": "#fff",
+						"bg": "#ff4500"
+					},
+					"btnHovColors": {
+						"color": "#fff",
+						"bg": "#ff7500"
+					}
+				},
+				{
+					"frontBG": {},
+					"backBG": {},
+					"border": {},
+					"shadow": {},
+					"isFrontUpIcon": false,
+					"frontIcon": {
+						"class": "fa fa-sync-alt",
+						"fontSize": 70,
+						"color": "#fff"
+					},
+					"upFrontIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"frontIconWidth": "70px",
+					"isBackUpIcon": false,
+					"backIcon": {
+						"class": "fa-brands fa-wordpress",
+						"fontSize": 70,
+						"color": "#fff"
+					},
+					"upBackIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"backIconWidth": "70px",
+					"frontTitle": "Front Title 3",
+					"frontTitleColor": "#fff",
+					"backTitle": "Back Title 3",
+					"backTitleColor": "#fff",
+					"desc": "This content area describes flip box 3 descriptions/details.",
+					"descColor": "#fff",
+					"btn": "Button 3",
+					"btnLink": "#",
+					"btnBorder": {
+						"radius": "3px"
+					},
+					"btnColors": {
+						"color": "#fff",
+						"bg": "#ff4500"
+					},
+					"btnHovColors": {
+						"color": "#fff",
+						"bg": "#ff7500"
+					}
+				}
+			]
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "40px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"boxHeight": {
+			"type": "string",
+			"default": "400px"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"boxPadding": {
+			"type": "object",
+			"default": {
+				"vertical": "30px",
+				"horizontal": "25px"
+			}
+		},
+		"isIcon": {
+			"type": "boolean",
+			"default": true
+		},
+		"iconMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "20px"
+			}
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 25,
+					"tablet": 22,
+					"mobile": 20
+				}
+			}
+		},
+		"titleMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "20px"
+			}
+		},
+		"isDesc": {
+			"type": "boolean",
+			"default": true
+		},
+		"descTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 16,
+					"tablet": 16,
+					"mobile": 16
+				}
+			}
+		},
+		"isBtn": {
+			"type": "boolean",
+			"default": true
+		},
+		"isLinkNewTab": {
+			"type": "boolean",
+			"default": true
+		},
+		"btnTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 16,
+					"tablet": 16,
+					"mobile": 16
+				}
+			}
+		},
+		"btnPadding": {
+			"type": "object",
+			"default": {
+				"vertical": "15px",
+				"horizontal": "25px"
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	}
+}

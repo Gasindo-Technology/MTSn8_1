@@ -1,0 +1,1 @@
+{"version":3,"file":"qr-code.css","mappings":"AACC,6BACC,oDAIA,8CACC","sources":["webpack://b-blocks/./src/blocks/qr-code/style.scss"],"sourcesContent":[".wp-block-b-blocks-qr-code {\r\n\t* {\r\n\t\tbox-sizing: border-box;\r\n\t}\r\n\r\n\t.bBlocksQRCode {\r\n\t\timg {\r\n\t\t\tdisplay: inline-block;\r\n\t\t}\r\n\t}\r\n}"],"names":[],"sourceRoot":""}

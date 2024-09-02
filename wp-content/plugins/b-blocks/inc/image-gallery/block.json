@@ -1,0 +1,95 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/image-gallery",
+	"title": "Image Gallery",
+	"description": "Display Multiple Images as Gallery.",
+	"category": "bBlocks",
+	"keywords": [
+		"images",
+		"photos",
+		"gallery"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"images": {
+			"type": "array",
+			"default": []
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"imgPadding": {
+			"type": "object",
+			"default": {}
+		},
+		"imgBorder": {
+			"type": "object",
+			"default": {}
+		},
+		"imgShadow": {
+			"type": "object",
+			"default": {}
+		},
+		"isPreview": {
+			"type": "boolean",
+			"default": true
+		},
+		"isCap": {
+			"type": "boolean",
+			"default": true
+		},
+		"capAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"capColor": {
+			"type": "string",
+			"default": "#333"
+		},
+		"capTitleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 18,
+					"tablet": 17,
+					"mobile": 16
+				}
+			}
+		},
+		"capDescTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

@@ -1,0 +1,211 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/feature-boxes",
+	"title": "Feature Boxes",
+	"description": "Display Feature boxes section.",
+	"category": "bBlocks",
+	"keywords": [
+		"features",
+		"feature boxes",
+		"features section"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"features": {
+			"type": "array",
+			"default": [
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"isUpIcon": false,
+					"icon": {
+						"class": "fa-brands fa-wordpress",
+						"fontSize": 120
+					},
+					"upIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"iconWidth": "120px",
+					"title": "Feature 1",
+					"titleColor": "#333",
+					"separator": {
+						"width": "20%",
+						"height": "2px",
+						"style": "solid",
+						"color": "#bbb"
+					},
+					"desc": "This content area describes feature 1 descriptions or details.",
+					"descColor": "#333"
+				},
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"isUpIcon": false,
+					"icon": {
+						"class": "fa-brands fa-wordpress",
+						"fontSize": 120
+					},
+					"upIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"iconWidth": "120px",
+					"title": "Feature 2",
+					"titleColor": "#333",
+					"separator": {
+						"width": "20%",
+						"height": "2px",
+						"style": "solid",
+						"color": "#bbb"
+					},
+					"desc": "This content area describes feature 2 descriptions or details.",
+					"descColor": "#333"
+				},
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"isUpIcon": false,
+					"icon": {
+						"class": "fa-brands fa-wordpress",
+						"fontSize": 120
+					},
+					"upIcon": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"iconWidth": "120px",
+					"title": "Feature 3",
+					"titleColor": "#333",
+					"separator": {
+						"width": "20%",
+						"height": "2px",
+						"style": "solid",
+						"color": "#bbb"
+					},
+					"desc": "This content area describes feature 3 descriptions or details.",
+					"descColor": "#333"
+				}
+			]
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "50px",
+				"horizontal": "20px"
+			}
+		},
+		"isIcon": {
+			"type": "boolean",
+			"default": true
+		},
+		"iconMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "20px"
+			}
+		},
+		"isTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 20,
+					"tablet": 18,
+					"mobile": 16
+				},
+				"fontWeight": 600
+			}
+		},
+		"titleMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"isSep": {
+			"type": "boolean",
+			"default": true
+		},
+		"sepMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"isDesc": {
+			"type": "boolean",
+			"default": true
+		},
+		"descTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	}
+}

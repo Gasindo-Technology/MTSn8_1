@@ -1,0 +1,160 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/button-group",
+	"title": "Button Group",
+	"description": "Display Dual Button.",
+	"category": "bBlocks",
+	"keywords": [
+		"buttons",
+		"multiple buttons",
+		"group of buttons"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"width": {
+			"type": "string",
+			"default": "0px"
+		},
+		"btnAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"btnType": {
+			"type": "string",
+			"default": "fill"
+		},
+		"btnTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 16,
+					"tablet": 16,
+					"mobile": 16
+				}
+			}
+		},
+		"btnPadding": {
+			"type": "object",
+			"default": {
+				"vertical": "12px",
+				"horizontal": "30px"
+			}
+		},
+		"btnOne": {
+			"type": "string",
+			"selector": "a.btnOne",
+			"default": "First Button"
+		},
+		"btnOneLink": {
+			"type": "string",
+			"default": "#"
+		},
+		"btnOneBorder": {
+			"type": "object",
+			"default": {
+				"radius": "50px"
+			}
+		},
+		"btnOneColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"btnOneHovColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
+		"btnTwo": {
+			"type": "string",
+			"selector": "a.btnTwo",
+			"default": "Second Button"
+		},
+		"btnTwoLink": {
+			"type": "string",
+			"default": "#"
+		},
+		"btnTwoBorder": {
+			"type": "object",
+			"default": {
+				"radius": "50px"
+			}
+		},
+		"btnTwoColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
+		"btnTwoHovColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"isSep": {
+			"type": "boolean",
+			"default": true
+		},
+		"sepType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"sepText": {
+			"type": "string",
+			"default": "or"
+		},
+		"sepTextTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		},
+		"sepTextColor": {
+			"type": "string",
+			"default": "#333"
+		},
+		"sepIcon": {
+			"type": "object",
+			"default": {
+				"class": "fa fa-arrows-alt-h",
+				"fontSize": 20,
+				"color": "#333"
+			}
+		},
+		"sepBGColor": {
+			"type": "string",
+			"default": "#fff"
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

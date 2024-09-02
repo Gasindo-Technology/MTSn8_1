@@ -1,0 +1,204 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/cards",
+	"title": "Cards",
+	"description": "Provide cards to display anything.",
+	"category": "bBlocks",
+	"keywords": [
+		"card",
+		"cards",
+		"cards section"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"cards": {
+			"type": "array",
+			"default": [
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"img": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"imgBorder": {
+						"radius": "5px"
+					},
+					"cat": "Category 1",
+					"catColor": "#0dcaf0",
+					"title": "Card Title 1",
+					"titleColor": "#ff7500",
+					"desc": "This content area describes card 1 descriptions or details.",
+					"descColor": "#333"
+				},
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"img": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"imgBorder": {
+						"radius": "5px"
+					},
+					"cat": "Category 2",
+					"catColor": "#0dcaf0",
+					"title": "Card Title 2",
+					"titleColor": "#ff7500",
+					"desc": "This content area describes card 2 descriptions or details.",
+					"descColor": "#333"
+				},
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"img": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"imgBorder": {
+						"radius": "5px"
+					},
+					"cat": "Category 3",
+					"catColor": "#0dcaf0",
+					"title": "Card Title 3",
+					"titleColor": "#ff7500",
+					"desc": "This content area describes card 3 descriptions or details.",
+					"descColor": "#333"
+				}
+			]
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "20px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"layout": {
+			"type": "string",
+			"default": "vertical"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "20px",
+				"horizontal": "10px"
+			}
+		},
+		"imgPos": {
+			"type": "string",
+			"default": "top"
+		},
+		"imgHeight": {
+			"type": "string",
+			"default": "250px"
+		},
+		"isCat": {
+			"type": "boolean",
+			"default": true
+		},
+		"catTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		},
+		"catMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"isTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"titlePos": {
+			"type": "string",
+			"default": "image"
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 22,
+					"tablet": 20,
+					"mobile": 18
+				}
+			}
+		},
+		"titleMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"isDesc": {
+			"type": "boolean",
+			"default": true
+		},
+		"descTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,207 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/price-lists",
+	"title": "Price Lists",
+	"description": "Display Price lists section.",
+	"category": "bBlocks",
+	"keywords": [
+		"price",
+		"lists",
+		"price lists section"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"products": {
+			"type": "array",
+			"default": [
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"img": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"imgBorder": {},
+					"name": "Product 1 Name",
+					"nameColor": "#333",
+					"desc": "This content area describes product 1 descriptions or details.",
+					"descColor": "#333",
+					"price": "$99.99",
+					"priceColor": "#4527a4",
+					"separator": {
+						"width": "40%",
+						"height": "1px",
+						"color": "#bbb"
+					}
+				},
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"img": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"imgBorder": {},
+					"name": "Product 2 Name",
+					"nameColor": "#333",
+					"desc": "This content area describes product 2 descriptions or details.",
+					"descColor": "#333",
+					"price": "$99.99",
+					"priceColor": "#4527a4",
+					"separator": {
+						"width": "40%",
+						"height": "1px",
+						"color": "#bbb"
+					}
+				},
+				{
+					"background": {
+						"color": "#0000"
+					},
+					"img": {
+						"id": null,
+						"url": "",
+						"alt": "",
+						"title": ""
+					},
+					"imgBorder": {},
+					"name": "Product 3 Name",
+					"nameColor": "#333",
+					"desc": "This content area describes product 3 descriptions or details.",
+					"descColor": "#333",
+					"price": "$99.99",
+					"priceColor": "#4527a4",
+					"separator": {
+						"width": "40%",
+						"height": "1px",
+						"color": "#bbb"
+					}
+				}
+			]
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "40px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "30px"
+		},
+		"layout": {
+			"type": "string",
+			"default": "vertical"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "50px",
+				"horizontal": "20px"
+			}
+		},
+		"imgMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "20px"
+			}
+		},
+		"nameTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 18,
+					"tablet": 17,
+					"mobile": 16
+				},
+				"fontWeight": 600
+			}
+		},
+		"nameMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"isDesc": {
+			"type": "boolean",
+			"default": true
+		},
+		"descTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				},
+				"fontStyle": "italic"
+			}
+		},
+		"descMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "15px"
+			}
+		},
+		"priceTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 24,
+					"tablet": 22,
+					"mobile": 20
+				},
+				"fontStyle": "italic"
+			}
+		},
+		"isSep": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	}
+}

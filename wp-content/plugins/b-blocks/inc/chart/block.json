@@ -1,0 +1,198 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/chart",
+	"title": "Chart",
+	"description": "Graphical representation for data visualization.",
+	"category": "bBlocks",
+	"keywords": [
+		"charts",
+		"line charts",
+		"pie charts"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"data": {
+			"type": "object",
+			"default": {
+				"labels": [
+					"January",
+					"February",
+					"March",
+					"April",
+					"May",
+					"June"
+				],
+				"datasets": [
+					{
+						"label": "T-Shirts Sell 2021",
+						"data": [
+							3,
+							9,
+							10,
+							16,
+							14,
+							16
+						],
+						"backgroundColor": [
+							"#ff638433",
+							"#36a28733",
+							"#ffce5633",
+							"#4bc0c033",
+							"#9966ff33",
+							"#ff9f4033"
+						],
+						"borderColor": [
+							"#ff6384",
+							"#36a287",
+							"#ffce56",
+							"#4bc0c0",
+							"#9966ff",
+							"#ff9f40"
+						],
+						"tension": 0.4,
+						"borderWidth": 2,
+						"hoverBorderWidth": 2,
+						"pointRadius": 3,
+						"pointHoverRadius": 4,
+						"pointStyle": "triangle"
+					},
+					{
+						"label": "Shoes Sell 2021",
+						"data": [
+							5,
+							7,
+							12,
+							14,
+							13,
+							17
+						],
+						"backgroundColor": [
+							"#ff638433",
+							"#36a28733",
+							"#ffce5633",
+							"#4bc0c033",
+							"#9966ff33",
+							"#ff9f4033"
+						],
+						"borderColor": [
+							"#ff6384",
+							"#36a287",
+							"#ffce56",
+							"#4bc0c0",
+							"#9966ff",
+							"#ff9f40"
+						],
+						"tension": 0.4,
+						"borderWidth": 2,
+						"hoverBorderWidth": 2,
+						"pointRadius": 3,
+						"pointHoverRadius": 4,
+						"pointStyle": "circle"
+					}
+				]
+			}
+		},
+		"type": {
+			"type": "string",
+			"default": "line"
+		},
+		"width": {
+			"type": "string",
+			"default": "80%"
+		},
+		"height": {
+			"type": "string",
+			"default": "450px"
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#666"
+		},
+		"isXScale": {
+			"type": "boolean",
+			"default": true
+		},
+		"isXGridLine": {
+			"type": "boolean",
+			"default": true
+		},
+		"isYScale": {
+			"type": "boolean",
+			"default": true
+		},
+		"isYGridLine": {
+			"type": "boolean",
+			"default": true
+		},
+		"gridLineColor": {
+			"type": "string",
+			"default": "#0000001a"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"isTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"title": {
+			"type": "string",
+			"default": "Chart Title"
+		},
+		"titleFontSize": {
+			"type": "number",
+			"default": 22
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#4527a4"
+		},
+		"isSubtitle": {
+			"type": "boolean",
+			"default": false
+		},
+		"subtitle": {
+			"type": "string",
+			"default": "Chart Subtitle"
+		},
+		"subtitleFontSize": {
+			"type": "number",
+			"default": 13
+		},
+		"subtitleColor": {
+			"type": "string",
+			"default": "#8344c5"
+		},
+		"isDownload": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

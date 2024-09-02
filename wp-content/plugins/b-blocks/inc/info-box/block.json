@@ -1,0 +1,204 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/info-box",
+	"title": "Info Box",
+	"description": "Display information in box style.",
+	"category": "bBlocks",
+	"keywords": [
+		"information box",
+		"info box",
+		"message"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"infoBoxAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"width": {
+			"type": "string",
+			"default": "80%"
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#f1f7ff"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "50px",
+				"horizontal": "50px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"width": "10px",
+				"color": "#fff",
+				"radius": "5px"
+			}
+		},
+		"shadow": {
+			"type": "object",
+			"default": {
+				"blur": "15px"
+			}
+		},
+		"isIcon": {
+			"type": "boolean",
+			"default": true
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"class": "fa fa-info-circle",
+				"fontSize": 70,
+				"color": "#4527a4"
+			}
+		},
+		"iconMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "20px"
+			}
+		},
+		"title": {
+			"type": "string",
+			"selector": "h3.infoBoxTitle",
+			"default": "Info Box Title"
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 25,
+					"tablet": 22,
+					"mobile": 20
+				},
+				"fontWeight": 600
+			}
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#333"
+		},
+		"titleMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "10px"
+			}
+		},
+		"isDesc": {
+			"type": "boolean",
+			"default": true
+		},
+		"desc": {
+			"type": "string",
+			"selector": "p.infoBoxDescription",
+			"default": "This content area describes info box descriptions or details."
+		},
+		"descTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		},
+		"descColor": {
+			"type": "string",
+			"default": "#333"
+		},
+		"descMargin": {
+			"type": "object",
+			"default": {
+				"side": 4,
+				"bottom": "15px"
+			}
+		},
+		"isBtn": {
+			"type": "boolean",
+			"default": false
+		},
+		"btn": {
+			"type": "string",
+			"selector": "a.infoBoxButton",
+			"default": "Click Me"
+		},
+		"btnLink": {
+			"type": "string",
+			"default": "#"
+		},
+		"isLinkNewTab": {
+			"type": "boolean",
+			"default": true
+		},
+		"btnTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		},
+		"btnColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"btnHovColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
+		"btnPadding": {
+			"type": "object",
+			"default": {
+				"vertical": "8px",
+				"horizontal": "15px"
+			}
+		},
+		"btnBorder": {
+			"type": "object",
+			"default": {
+				"radius": "5px"
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}
